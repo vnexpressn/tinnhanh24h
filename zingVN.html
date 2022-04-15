@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<title> ip address</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+<script>
+	$.getJSON("https://ipinfo.io", function(data){
+		$("#ip").html(data.ip);
+	})
+	//getLocation
+	$.getJSON("https://ipinfo.io/", onLocationGot);
+	function onLocationGot(info) {
+  let position = info.loc.split(",");
+  $("#lat").html(position[0]);
+  $("#lon").html(position[1]);
+}
+</script>	
+</head>
+
+<body>
+
+	<center>
+		<h3> ip address of user is:</h3>
+		<p id="ip"></p>
+		<h3> Location of user is:</h3>
+		<p id="uk"></p>
+		<p id="lat"></p>
+		<p id="lon"></p>
+	</center>
+</body>
+</html>
