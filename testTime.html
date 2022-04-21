@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>testTime</title>
+</head>
+
+<body>
+	<div id="current-time"></div>
+	<input type="text" id="m" name="m">
+	
+<script>
+    var curDate = new Date();
+      
+    // Ngày hiện tại
+    var curDay = curDate.getDate();
+ 
+    // Tháng hiện tại
+    var curMonth = curDate.getMonth() + 1;
+      
+    // Năm hiện tại
+    var curYear = curDate.getFullYear();
+ 	
+	//
+	var curTime=curDate.toLocaleTimeString();
+    // Gán vào thẻ HTML
+    document.getElementById('m').value = "Ngày:"+curDay + "/" + curMonth + "/" + curYear+"; Thời gian: "+curTime;
+</script>
+</body>
+</html>
