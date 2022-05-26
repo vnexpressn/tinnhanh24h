@@ -1,1 +1,1 @@
-document.getElementById("demo1").innerHTML="Nữ hoàng nội y Ngọc Trinh tên thật là Trịnh Ngọc Trinh . Sinh ngày 27 tháng 09 năm 1989 tại thị trấn Tiểu Cầu - tỉnh Trà vinh trong một gia đình nghèo. Cô sở hữu chiều cao 1m72 cùng với số đo cực chuẩn 85 - 58 - 91, Ngọc Trinh nhanh chóng gia nhập làng thời trang Việt năm 15 tuồi, 16 tuổi tham gia và giành giải phụ cuộc thi Hoa Hậu Trang Sức. Năm 2005, Ngọc Trinh tham dự Siêu Mẫu Việt Nam và đoạt giải Người Đẹp Ăn Ảnh";
+document.getElementById("demo").innerHTML = "Hello World";
