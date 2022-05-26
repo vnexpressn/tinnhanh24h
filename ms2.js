@@ -1,1 +1,1 @@
-document.getElementById("demo").innerHTML = "Nữ hoàng nội y vừa kết hôn với Nhật Tinh Anh ANM1602; Cô cho biết yêu đắm đuối anh chàng và muốn sinh 10 đứa con cho anh-Theo báo lá cải";
+document.getElementById("demo").innerHTML = "Phóng viên Nhật Tinh Anh, thường trú tại Nga ngố cho biết: Từ ngày 26.05.2022 sẽ ";
